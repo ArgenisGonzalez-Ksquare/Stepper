@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stepper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <section class="preferenceForm">
+
+            <!-- STEP SECTION -->
+            <div class="up">
+                <div class="numerbCont">
+                    <span class="number one">1</span>
+                    <span class="nameUp oneC">Cabin</span>
+                </div>
+
+                <span class="line complete"></span>
+
+                <div class="numerbCont">
+                    <span class="number two">2</span>
+                    <span class="nameUp twoC">Meals</span>
+                </div>
+                    
+                    <span class="line"></span>
+
+                <div class="numerbCont third">
+                    <span class="number ">3</span>
+                    <span class="nameUp">Upgrades</span>
+                </div>
+
+                <span class="line"></span>
+
+                <div class="numerbCont last">
+                    <span class="number">4</span>
+                    <span class="nameUp">Payments</span>
+                </div>
+
+            </div>
+            <!-- END STEP SECTION -->
+
+            <!-- MEAL SECTION -->
+            <div class="meal">
+                <h2 class="mealTitle">Meal Preferences</h2>
+                <p class="para">Your fligth comes with breakfast, luch and dinner. Please make your selections belows. <br> Changes to your order can be made up to 48 hours before your fligth.</p>
+            </div>
+
+            <form class="form" action="form">
+                
+                <div class="rigth">
+                    <p class="rigthTitle">Breakfast</p>
+                    <select class="select" name="breakfast">
+                        <option>Sausage Egg Scramble Bowl
+                    </select>
+                    <p class="rigthTitle">Lunch</p>
+                    <select class="select" name="lunch">
+                        <option>Club Sandwich Meal
+                    </select>
+                    <p class="rigthTitle">Dinner</p>
+                    <select class="select" name="dinner">
+                        <option>Wagyu Beef Slider Meal
+                    </select>
+                </div>
+                
+                <div class="left">
+                    <p class="leftTitle">Drink</p>
+                    <select class="select" name="breakfastDrink">
+                        <option>Coffe
+                    </select>
+                    <p class="leftTitle">Drink</p>
+                    <select class="select" name="lunchDrink">
+                        <option>Cranberry Juice
+                    </select>
+                    <p class="leftTitle">Drink</p>
+                    <select class="select" name="dinnerDrink">
+                        <option>Red Wine
+                    </select>
+                </div>
+
+            </form>
+            <!-- MEAL SECTION -->
+
+            <!-- DESSERT checkbox -->
+            <div class="check">    
+                <label class="custom-radio-checkbox">
+                    <input type="checkbox" class="custom-radio-checkbox__input" name="desser" value="dessert">
+                    <span class="custom-radio-checkbox__show custom-radio-checkbox__show--checkbox"></span>
+                    <span class="custom-radio-checkbox__text"> I´d like dessert, too!</span>
+                </label>
+            </div>
+            <!-- END DESSERT checkbox -->
+
+            <!-- BUTTNONS SECTION -->
+            <div class="Cbuttons">
+                <button class="button back" name="Back">Back</button>
+                <button class="button continue" name="Continue">Continue</button>
+            </div>
+            <!-- BUTTNONS SECTION -->
+        </section>
+    </main>
+    
+</body>
+</html>
