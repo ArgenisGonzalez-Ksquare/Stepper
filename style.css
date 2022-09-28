@@ -184,6 +184,7 @@ body{
     width: 100%;
  /*    outline: dashed red 1px; */
     display: flex;
+    flex-wrap: nowrap;
     justify-content: space-between;
     padding-top: 2%;
 }
